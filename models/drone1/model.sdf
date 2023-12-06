@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='drone1'>
+    <link name='link_0'>
+      <inertial>
+        <mass>10</mass>
+        <inertia>
+          <ixx>0</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0</iyy>
+          <iyz>0</iyz>
+          <izz>0</izz>
+        </inertia>
+        <pose>0 0.5 0 0 0 0</pose>
+      </inertial>
+      <pose>0 0 0 0 -0 0</pose>
+      <gravity>1</gravity>
+      <self_collide>0</self_collide>
+      <kinematic>0</kinematic>
+      <enable_wind>0</enable_wind>
+      <visual name='visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>/home/user_adm/stl/attempt.stl</uri>
+            <scale>0.008 0.008 0.008</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+        </material>
+        <transparency>0</transparency>
+        <cast_shadows>1</cast_shadows>
+      </visual>
+      <collision name='collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>/home/user_adm/stl/attempt.stl</uri>
+            <scale>0.008 0.008 0.008</scale>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+    <static>0</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

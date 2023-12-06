@@ -1,0 +1,15 @@
+Gazebo multi-robot simulator, version 11.5.1
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1624441536 657746107) [Msg] Waiting for master.
+(1624441536 664169868) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1624441536 664190688) [Msg] Publicized address: 192.168.1.80
+(1624441536 664356188) Loaded .ini file from: "/home/user_adm/.gazebo/gui.ini"
+(1624441537 768212669) No spacenav daemon found. Spacenav functionality is disabled
+(1624441608 39692082) [Wrn] [Publisher.cc:136] Queue limit reached for topic /gazebo/default/user_camera/pose, deleting message. This warning is printed only once.
+(1624441674 165624206) [Wrn] [ModelDatabase.cc:212] Unable to connect to model database using [http://models.gazebosim.org/fountain/model.config]. Only locally installed models will be available.
+(1624441674 165707384) [Err] [ModelDatabase.cc:394] Unable to get model name[http://models.gazebosim.org/fountain]
+(1624443437 201244050) [Err] [Scene.cc:2974] Light [user_spot_light_0] already exists. Use topic ~/light/modify to modify it.

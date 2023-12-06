@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name="simple_manipulator1">
+
+    <include>
+      <uri>model://my_gripper1</uri>
+      <pose>0.65 0 0.0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://my_simple_arm</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <joint name="arm_gripper_joint" type="prismatic">
+      <parent>simple_arm::forearm</parent>
+      <child>simple_gripper1::riser</child>
+      <axis>
+                <limit>
+                    <lower>0</lower>
+                    <upper>0.3</upper>
+                </limit>
+                <xyz>0 0 1</xyz>
+            </axis>
+    </joint>
+    
+   
+  </model>
+</sdf>

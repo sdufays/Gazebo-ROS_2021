@@ -1,0 +1,18 @@
+Gazebo multi-robot simulator, version 11.5.1
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1626964277 904833365) [Msg] Waiting for master.
+(1626964277 911917467) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1626964277 911942710) [Msg] Publicized address: 10.40.103.9
+(1626964278 674559457) [Msg] Loading world file [/home/user_adm/catkin_ws/src/gazebo_gripper_tester/worlds/gripper_tester.world]
+(1626964278 833125790) ODESliderJoint::SetAnchor not implemented.
+(1626964278 833538926) ODESliderJoint::SetAnchor not implemented.
+(1626964278 834043050) ODESliderJoint::SetAnchor not implemented.
+(1626964278 841732102) ODESliderJoint::SetAnchor not implemented.
+(1626964278 841787740) ODESliderJoint::SetAnchor not implemented.
+(1626964278 842618043) ODESliderJoint::SetAnchor not implemented.
+(1626964278 843071144) Init world[default]
+(1626964279 35488852) [Wrn] [Event.cc:61] Warning: Deleting a connection right after creation. Make sure to save the ConnectionPtr from a Connect call

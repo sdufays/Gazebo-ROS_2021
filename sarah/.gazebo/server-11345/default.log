@@ -1,0 +1,17 @@
+Gazebo multi-robot simulator, version 11.5.1
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1624441536 544020092) [Msg] Waiting for master.
+(1624441536 553430335) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1624441536 553449926) [Msg] Publicized address: 192.168.1.80
+(1624441537 82578179) [Msg] Loading world file [/home/user_adm/catkin_ws/src/gazebo_gripper_tester/worlds/gripper_tester.world]
+(1624441537 195866435) ODESliderJoint::SetAnchor not implemented.
+(1624441537 196171943) ODESliderJoint::SetAnchor not implemented.
+(1624441537 196644646) ODESliderJoint::SetAnchor not implemented.
+(1624441537 197034453) Init world[default]
+(1624443437 199601480) [Err] [Scene.cc:2974] Light [user_spot_light_0] already exists. Use topic ~/light/modify to modify it.
+(1624443639 991117891) [Wrn] [Publisher.cc:136] Queue limit reached for topic /gazebo/default/pose/local/info, deleting message. This warning is printed only once.
+(1624444145 147655227) [Wrn] [Publisher.cc:136] Queue limit reached for topic /gazebo/default/pose/info, deleting message. This warning is printed only once.

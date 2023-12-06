@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name="simple_manipulator4">
+
+    <include>
+      <uri>model://riser</uri>
+      <pose>0.7 0 0.017 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://my_simple_arm</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://pr2_gripper_simplified</uri>
+      <pose>-0.08 0.19 0.96 0 1.5708 0</pose>
+    </include>
+    
+    <joint name="forearm_arm_joint" type="prismatic">
+      <parent>simple_arm::forearm</parent>
+      <child>riser::arm</child>
+      <axis>
+                <limit>
+                    <lower>0</lower>
+                    <upper>0.3</upper>
+                </limit>
+                <xyz>0 0 1</xyz>
+            </axis>
+    </joint>
+    
+    <joint name="arm_gripper_joint" type="fixed">
+      <parent>riser::arm</parent>
+      <child>pr2_gripper_simplified::r_wrist_roll_link</child>
+    </joint>
+    
+   
+  </model>
+</sdf>
+

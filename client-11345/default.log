@@ -1,0 +1,29 @@
+Gazebo multi-robot simulator, version 11.5.1
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1626964278 13945081) [Msg] Waiting for master.
+(1626964278 22869363) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1626964278 22905836) [Msg] Publicized address: 10.40.103.9
+(1626964278 23145912) Loaded .ini file from: "/home/user_adm/.gazebo/gui.ini"
+(1626964278 924901422) [Err] [InsertModelWidget.cc:402] Missing model.config for model "/home/user_adm/.gazebo/models/robot_2f85"
+(1626964278 924989552) model.config file is missing in directory["/home/user_adm/.gazebo/models/robot_2f85"]
+(1626964278 925087998) [Err] [InsertModelWidget.cc:402] Missing model.config for model "/home/user_adm/.gazebo/models/robotiq-kinetic-devel"
+(1626964278 925192965) model.config file is missing in directory["/home/user_adm/.gazebo/models/robotiq-kinetic-devel"]
+(1626964278 929329859) [Err] [InsertModelWidget.cc:402] Missing model.config for model "/home/user_adm/.gazebo/models/robot_2f85"
+(1626964278 929410659) model.config file is missing in directory["/home/user_adm/.gazebo/models/robot_2f85"]
+(1626964278 929478605) [Err] [InsertModelWidget.cc:402] Missing model.config for model "/home/user_adm/.gazebo/models/robotiq-kinetic-devel"
+(1626964278 929569524) model.config file is missing in directory["/home/user_adm/.gazebo/models/robotiq-kinetic-devel"]
+(1626964279 165242631) [Wrn] [Event.cc:61] Warning: Deleting a connection right after creation. Make sure to save the ConnectionPtr from a Connect call
+(1626964279 545985686) No spacenav daemon found. Spacenav functionality is disabled
+(1626964698 799314190) [Wrn] [Publisher.cc:136] Queue limit reached for topic /gazebo/default/user_camera/pose, deleting message. This warning is printed only once.
+(1626964764 352720470) [Wrn] [ModelCreator.cc:2951] Couldn't find top level visual for [ModelPreview_1::link_2]. Not selecting in 3D scene.
+(1626964771 793881353) [Wrn] [ModelCreator.cc:2951] Couldn't find top level visual for [ModelPreview_1::link_2]. Not selecting in 3D scene.
+(1626964890 146485) [Wrn] [Visual.cc:1056] Unable to get Material[Gazebo/GreyGrey] for Geometry[ModelPreview_1::link_0::visual. Object will appear white
+(1626964915 767534345) [Msg] Created folder "/home/user_adm/model_editor_models/Plastic_Cylinder_test" for model files.
+(1626964915 768023018) [Err] [InsertModelWidget.cc:402] Missing model.config for model "/home/user_adm/model_editor_models/Plastic_Cylinder_test"
+(1626964915 768518109) model.config file is missing in directory["/home/user_adm/model_editor_models/Plastic_Cylinder_test"]
+(1626964915 858641428) [Dbg] [SaveEntityDialog.cc:517] Saved file to /home/user_adm/model_editor_models/Plastic_Cylinder_test/model.config
+(1626964915 858785666) [Dbg] [SaveEntityDialog.cc:536] Saved file to /home/user_adm/model_editor_models/Plastic_Cylinder_test/model.sdf

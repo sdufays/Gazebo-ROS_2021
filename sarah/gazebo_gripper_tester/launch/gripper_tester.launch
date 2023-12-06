@@ -1,0 +1,10 @@
+<launch>
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="/home/user_adm/catkin_ws/src/gazebo_gripper_tester/worlds/gripper_tester.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="recording" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+</launch>
